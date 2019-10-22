@@ -36,30 +36,36 @@
             </exclusions>
         </dependency>
 
-        <!--lucene-->
+        <!--lucene核心包-->
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-core</artifactId>
             <version>7.6.0</version>
         </dependency>
+        <!--对分词索引查询解析-->
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-queryparser</artifactId>
             <version>7.6.0</version>
         </dependency>
+        <!--一般分词器-->
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-analyzers-common</artifactId>
             <version>7.6.0</version>
         </dependency>
-
         <!--中文分词器-->
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-analyzers-smartcn</artifactId>
             <version>7.6.0</version>
         </dependency>
-
+        <!--文件高亮-->
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-highlighter</artifactId>
+            <version>7.6.0</version>
+        </dependency>
         <!--文件IO操作-->
         <dependency>
             <groupId>commons-io</groupId>
